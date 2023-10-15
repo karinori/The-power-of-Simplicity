@@ -10,9 +10,7 @@ body {
 .container {
   max-width: 1410px;
   width: 100%;
-  margin-inline: auto;
   padding-bottom: 50px;
-  flex-shrink: 0;
   border-radius: 32px;
   background: linear-gradient(
     180deg,
@@ -24,7 +22,7 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  width: 1410px;
+  max-width: 1410px;
   padding: 32px;
   align-items: center;
   gap: 32px;
